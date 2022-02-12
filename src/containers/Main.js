@@ -44,7 +44,6 @@ const Main = () => {
         <Twitter />
         <Podcast />
         <Profile />
-        <Footer />
         <Top />
       </StyleProvider>
     </div>

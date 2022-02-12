@@ -9,7 +9,7 @@ export default function GithubProfileCard({prof}) {
   if (prof.isHireable) {
     prof.hireable = "Yes";
   } else {
-    prof.hireable = "No";
+    prof.hireable = "Yes";
   }
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -41,6 +41,9 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
+            <div className="opp-div">
+              <span className="desc-prof">{9500212015}</span>
+            </div>
             <div className="opp-div">
               <span className="desc-prof">
                 Open for opportunities: {prof.hireable}
